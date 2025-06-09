@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`955aee8`](https://github.com/stdlib-js/stdlib/commit/955aee86dd40a98dc992ce091f17f0a2c6136b75) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`f24f28f`](https://github.com/stdlib-js/stdlib/commit/f24f28f4edc3219aefd4f04f0920993650ad6d28) - **feat:** add `stats/strided/min-by` _(by Gururaj Gurram)_
 
 </details>
