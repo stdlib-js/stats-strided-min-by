@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+minBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-min-by/tags). For example,
+
+```javascript
 minBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var minBy = require( 'path/to/vendor/umd/stats-strided-min-by/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -214,7 +219,7 @@ var v = minBy.ndarray( 3, x, 1, x.length-3, accessor );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min-by@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
